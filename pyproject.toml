@@ -4,10 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["nadaa <nadaa@ajou.ac.kr>"]
 readme = "README.md"
-requires-python = ">=3.10"
 
 [tool.poetry.dependencies]
-python = ">=3.10"
+python = ">=3.10"  # ✅ 여기로 이동
 fastapi = ">=0.115.8,<0.116.0"
 uvicorn = ">=0.34.0,<0.35.0"
 openai = ">=1.61.0,<2.0.0"
